@@ -16,11 +16,16 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Free QR Code Generator by Emakk Solutions">
 <meta name="twitter:description" content="Create custom QR codes for links and text. Download as PNG or SVG. Free, private and unlimited.">
+<meta property="og:image" content="https://emakk.vercel.app/assets/emakk_logo.webp">
+<meta property="og:image:type" content="image/webp">
+<meta property="og:image:alt" content="Emakk Solutions logo">
+<meta name="twitter:image" content="https://emakk.vercel.app/assets/emakk_logo.webp">
+<meta name="twitter:image:alt" content="Emakk Solutions logo">
 <!-- After deploying, add: <link rel="canonical" href="https://YOUR-DOMAIN/"> and og:url / og:image -->
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%233d5afe'/%3E%3Cpath fill='%23fff' d='M6 6h8v8H6zM18 6h8v8h-8zM6 18h8v8H6zM18 18h4v4h-4zM24 24h2v2h-2z'/%3E%3C/svg%3E">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
-{"@type":"WebApplication","name":"Emakk QR Code Generator","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"description":"Free online QR code generator with custom colors, size and error correction. Download as PNG or SVG.","creator":{"@type":"Organization","name":"Emakk Solutions","url":"https://emakk.vercel.app"}},
+{"@type":"WebApplication","name":"Emakk QR Code Generator","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"description":"Free online QR code generator with custom colors, size and error correction. Download as PNG or SVG.","image":"https://emakk.vercel.app/assets/emakk_logo.webp","creator":{"@type":"Organization","name":"Emakk Solutions","url":"https://emakk.vercel.app","logo":"https://emakk.vercel.app/assets/emakk_logo.webp"}},
 {"@type":"FAQPage","mainEntity":[
 {"@type":"Question","name":"Is this QR code generator free?","acceptedAnswer":{"@type":"Answer","text":"Yes. It is free, has no sign-up and no limit on how many codes you make."}},
 {"@type":"Question","name":"Do my QR codes expire?","acceptedAnswer":{"@type":"Answer","text":"No. These are static QR codes. The data is stored in the code itself, so it works forever."}},
@@ -92,7 +97,7 @@ footer p+p{margin-top:6px;font-size:.85rem;opacity:.8}
 <a class="skip" href="#tool">Skip to the QR code generator</a>
 <header class="hero">
   <div class="wrap">
-    <div class="brand"><i aria-hidden="true">E</i> Emakk Solutions</div>
+    <div class="brand"><img src="https://emakk.vercel.app/assets/emakk_logo.webp" alt="Emakk Solutions logo" width="30" height="30" style="border-radius:8px"> Emakk Solutions</div>
     <h1>Free QR code generator</h1>
     <p class="sub">Turn any link or text into a QR code. Pick your colors, set the size, and download a crisp PNG or SVG. No sign-up and no limits.</p>
   </div>
@@ -113,7 +118,7 @@ footer p+p{margin-top:6px;font-size:.85rem;opacity:.8}
           <p class="hint">Your image is uploaded and made public. Anyone with the QR code can see it. Only upload images you are happy to share.</p>
         </div>
         <label for="text" id="textLabel">Link or text</label>
-        <textarea id="text" maxlength="2000" placeholder="https://emakk.vercel.app">https://emakk.vercel.app</textarea>
+        <textarea id="text" maxlength="2000" placeholder="type your text or link here"></textarea>
         <p class="hint"><span id="count">0</span> / 2000 characters</p>
 
         <div class="row">
